@@ -66,8 +66,8 @@ To use this library, you need to include it in your project as a dependency. If 
 Usage
 Here's an example of how to use the library to create a RightTriangle and compute its properties:
 
-java
-Копіювати код
+
+Приклад використання на JAVA:
 ```java
 import com.example.triangle.RightTriangle;
 
