@@ -67,7 +67,7 @@ Usage
 Here's an example of how to use the library to create a RightTriangle and compute its properties:
 
 
-Приклад використання на JAVA:
+An example of use in JAVA:
 ```java
 import com.example.triangle.RightTriangle;
 
