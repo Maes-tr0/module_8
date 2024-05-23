@@ -62,3 +62,36 @@ To use this library, you need to include it in your project as a dependency. If 
         </plugins>
     </build>
 </project>
+Usage
+Here's an example of how to use the library to create a RightTriangle and compute its properties:
+
+java
+Копіювати код
+import com.example.triangle.RightTriangle;
+
+public class Main {
+    public static void main(String[] args) {
+        RightTriangle rightTriangle = new RightTriangle(3, 4, 5);
+        System.out.print(rightTriangle + "~Result counting~\n");
+        System.out.println("Perimeter: " + rightTriangle.getPerimeter());
+        System.out.println("Area: " + rightTriangle.getArea());
+        System.out.println("RadiusOfTheInscribedCircle: " + rightTriangle.getRadiusOfTheInscribedCircle());
+        System.out.println("RadiusOfTheCircumscribedCircle: " + rightTriangle.getRadiusOfTheCircumscribedCircle());
+    }
+}
+Testing
+To run the tests, use the following command:
+
+bash
+Копіювати код
+mvn test
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+go
+Копіювати код
+
+Додайте цей файл до вашого репозиторію як `README.md`. Це допоможе іншим зрозуміти ваш проект і швидко розпочати роботу з ним.
